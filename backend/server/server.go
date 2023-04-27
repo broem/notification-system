@@ -51,6 +51,7 @@ func Start(cfg *config.Config) {
 
 	// Routes
 	apiv1.GET("/notifications", notificationHandler.GetAllNotifications)
+	apiv1.POST("/notifications", notificationHandler.CreateNotification)
 
 	// Start server
 	e.Logger.Fatal(e.Start(cfg.Server.Address))
