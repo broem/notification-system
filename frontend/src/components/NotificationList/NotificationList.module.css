@@ -1,0 +1,15 @@
+.notificationList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .notificationList {
+      padding: 32px;
+    }
+  }

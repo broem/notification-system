@@ -1,0 +1,31 @@
+.notificationListItem {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 12px 16px;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .notificationListItem:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15), 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .title {
+    margin: 0;
+    margin-right: 8px;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 600;
+    flex: 1;
+  }
+  
+  .message {
+    margin: 0;
+    color: #666;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    flex: 3;
+  }
+  
